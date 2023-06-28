@@ -64,11 +64,7 @@ class ChatroomClient:
 
 if __name__ == "__main__":
    
-    try:
-       banner.ban()
-       client = ChatroomClient(ip_address, port)
-       client.start()
-    except KeyboardInterrupt:
-       print(Fore.LIGHTRED_EX+"[!] "+Fore.RESET+"Exiting . . .")
-       time.sleep(3)
-       sys.exit()
+    banner.ban()
+    client = ChatroomClient(ip_address, port)
+    client.start()
+   
