@@ -24,24 +24,24 @@ pip install -r requirements.txt
 # Server useage
 | Argument | Useage |
 | --- | --- |
-| `--ip` | IP address of the host for the chatroom  |
+| `--host` | IP address of the host for the chatroom  |
 | `--port` | Port number of the host you wanna build tha chatroom on |
 
 
 Server:
 ```
-python server.py --ip 127.0.0.1 --port 9999
+python server.py --host 127.0.0.1 --port 9999
 ```
 
 # Client useage
 | Argument | Useage |
 | --- | --- |
-| `--ip` | Host address to connect to the chat room |
+| `--host` | Host address to connect to the chat room |
 | `--port` | Port number of the host server |
 | `--user` | Username for the chatroom |
 
 
 Client:
 ```
-python client.py --ip 127.0.0.1 --port 9999 --user wraith
+python client.py --host 127.0.0.1 --port 9999 --user wraith
 ```
