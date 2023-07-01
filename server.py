@@ -1,6 +1,7 @@
 import threading
 import socket
 import argparse
+import os
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--host', type=str, default='127.0.0.1', help='IP address of host for the chatroom ')
