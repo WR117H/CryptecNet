@@ -1,2 +1,2 @@
-# DeepChat
-DeepChat, A tool for chatting but anonymously
+# CryptectNet
+CryptectNet, A tool for chatting but anonymously
