@@ -16,7 +16,6 @@ def ban(x):
    print(Fore.LIGHTMAGENTA_EX+banner+Fore.RESET)
    if x == 0:
 
-      print("Documentaiton "+Fore.LIGHTYELLOW_EX+github+Fore.RESET>
+      print("Documentaiton "+Fore.LIGHTYELLOW_EX+github+Fore.RESET+"\n")
    else:
       print("Documentaiton "+Fore.LIGHTYELLOW_EX+github+Fore.RESET)
-
