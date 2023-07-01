@@ -18,13 +18,16 @@ pip install -r requirements.txt
 ```
 
 
+
+# Examples
+
 # Server useage
 | Argument | Useage |
 | --- | --- |
 | `--ip` | IP address of the host for the chatroom  |
 | `--port` | Port number of the host you wanna build tha chatroom on |
 
-# Examples
+
 Server:
 ```
 python server.py --ip 127.0.0.1 --port 9999
