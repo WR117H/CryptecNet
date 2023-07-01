@@ -1,5 +1,7 @@
 import threading
 import socket
+import argparse
+
 parser = argparse.ArgumentParser()
 parser.add_argument('--host', type=str, default='127.0.0.1', help='IP address of host for the chatroom ')
 parser.add_argument('--port', type=int, default=9999, help='Port number of the host you wanna build tha chatroom on')
