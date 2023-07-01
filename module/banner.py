@@ -1,4 +1,5 @@
 from colorama import Fore
+import os
 
 github = "https://github.com/wR117H/CryptetNet"
 wraith = "@wR117H"
