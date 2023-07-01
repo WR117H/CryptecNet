@@ -5,7 +5,7 @@ import argparse
 from colorama import Fore
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--host', type=str, default='127.0.0.1', help='Host address to connect to')
+parser.add_argument('--host', type=str, default='127.0.0.1', help='Host address to connect to the chat room')
 parser.add_argument('--port', type=int, default=9999, help='Port number of the host server')
 parser.add_argument('--user', type=str, help='Username for the chatroom')
 
