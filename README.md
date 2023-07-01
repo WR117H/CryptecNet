@@ -6,7 +6,7 @@ CryptectNet, A tool for chatting with freaks
 # Setup
 First install CryptectNet using git
 ```
-git clone https://github.com/WR117H/ReverseCam.git
+git clone https://github.com/WR117H/CryptecNet.git
 ```
 Then head to the folder
 ```
