@@ -16,7 +16,7 @@ Install the requirements using pip
 ```
 pip install -r requirements.txt
 ```
-Change the client's file addresses to whatever you want . . .
+
 
 # Server useage
 | Argument | Useage |
