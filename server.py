@@ -1,5 +1,13 @@
 import threading
 import socket
+parser = argparse.ArgumentParser()
+parser.add_argument('--host', type=str, default='127.0.0.1', help='IP address of host for the chatroom ')
+parser.add_argument('--port', type=int, default=9999, help='Port number of the host you wanna build tha chatroom on')
+
+args = parser.parse_args()
+
+port = args.port
+ip_address = args.host
 
 class ChatroomServer:
     def __init__(self, host, port):
@@ -55,8 +63,7 @@ class ChatroomServer:
         print(f"Client disconnected: {username}")
 
 if __name__ == "__main__":
-    host = "127.0.0.1"  # Change it to your desired host IP
-    port = 12345  # Change it to your desired port number
 
-    server = ChatroomServer(host, port)
+
+    server = ChatroomServer(ip_address, port)
     server.start()
