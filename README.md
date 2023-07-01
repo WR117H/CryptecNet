@@ -29,6 +29,8 @@ pip install -r requirements.txt
 
 
 Server:
+![Screenshot 2023-07-01 194637](https://github.com/WR117H/CryptecNet/assets/97615989/679bb789-7dc9-43d6-87d6-85c4f01e92f3)
+
 ```
 python server.py --ip 127.0.0.1 --port 9999
 ```
