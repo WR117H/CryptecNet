@@ -57,5 +57,6 @@ class ChatroomClient:
 
 if __name__ == "__main__":
     banner.ban(0)
+    print("HI")
     client = ChatroomClient(ip_address, port)
     client.start()
